@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Política de Reembolso — Vida Fit Premium 2.0</title>
+  <meta name="description" content="Política de Reembolso do Vida Fit Premium 2.0." />
+  <style>
+    body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Arial;line-height:1.65;color:#0b1720;padding:28px;max-width:900px;margin:0 auto;background:#f7fbff}
+    h1,h2{color:#08203a}
+    p{margin:8px 0}
+    .muted{color:#475569;font-size:14px}
+    a{color:#0b6df6}
+    header{border-bottom:1px solid rgba(11,32,58,0.06);padding-bottom:12px;margin-bottom:20px}
+    footer{margin-top:30px;border-top:1px solid rgba(11,32,58,0.06);padding-top:12px;color:#64748b;font-size:13px}
+    ul{margin-left:20px}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Política de Reembolso — Vida Fit Premium 2.0</h1>
+    <p class="muted">Última atualização: 21 de novembro de 2025</p>
+  </header>
+
+  <main>
+    <p>A Política de Reembolso do <strong>Vida Fit Premium 2.0</strong> foi desenvolvida para garantir transparência e segurança aos nossos usuários. Ao adquirir qualquer assinatura ou serviço dentro do app, você concorda com os termos descritos abaixo.</p>
+
+    <h2>1. Assinaturas mensais</h2>
+    <p>O plano mensal tem cobrança recorrente automática. Caso o usuário deseje cancelar, o cancelamento pode ser feito a qualquer momento por meio da plataforma de pagamento (Stripe) ou mediante solicitação de suporte.</p>
+    <p>Reembolso é permitido apenas quando:</p>
+    <ul>
+      <li>houver erro técnico comprovado que impossibilite o uso do serviço;</li>
+      <li>o usuário solicitar reembolso dentro de até <strong>7 dias após a compra</strong> (conforme o Código de Defesa do Consumidor);</li>
+      <li>a cobrança tiver sido duplicada por falha no sistema.</li>
+    </ul>
+
+    <h2>2. Assinaturas anuais</h2>
+    <p>O plano anual é cobrado integralmente no ato da compra. O usuário tem direito ao reembolso integral caso solicite dentro de <strong>7 dias da data da compra</strong>. Após esse período, reembolsos não são concedidos, exceto em casos de:</p>
+    <ul>
+      <li>falha técnica do app que impeça o acesso prolongado ao serviço;</li>
+      <li>cobrança indevida comprovada.</li>
+    </ul>
+
+    <h2>3. Cancelamento de assinatura</h2>
+    <p>O cancelamento interrompe futuras cobranças, mas não gera reembolso automático do ciclo atual, exceto nos casos previstos nesta política.</p>
+
+    <h2>4. Como solicitar reembolso</h2>
+    <p>Para solicitar reembolso, envie um e‑mail com o assunto <strong>“Reembolso Vida Fit Premium 2.0”</strong> para:</p>
+    <p><strong>E-mail:</strong> <a href="mailto:kaugustocesa280@gmail.com">kaugustocesa280@gmail.com</a></p>
+    <p>No corpo da mensagem, inclua:</p>
+    <ul>
+      <li>nome completo;</li>
+      <li>e‑mail utilizado na assinatura;</li>
+      <li>comprovante de pagamento (Stripe);</li>
+      <li>motivo da solicitação.</li>
+    </ul>
+
+    <h2>5. Prazo para análise</h2>
+    <p>Solicitações são analisadas em até <strong>5 dias úteis</strong>. Se aprovado, o reembolso será processado pelo Stripe e pode levar alguns dias adicionais para aparecer na fatura.</p>
+
+    <h2>6. Casos não elegíveis para reembolso</h2>
+    <ul>
+      <li>insatisfação subjetiva sem fundamento técnico;</li>
+      <li>uso indevido do app ou violações dos Termos de Uso;</li>
+      <li>solicitações feitas após o prazo legal de 7 dias, exceto por motivos técnicos comprovados.</li>
+    </ul>
+
+    <h2>7. Atualizações desta política</h2>
+    <p>Podemos atualizar esta política periodicamente. A data de atualização no topo da página será modificada sempre que houver alterações.</p>
+
+    <h2>8. Contato</h2>
+    <p>Se precisar de ajuda, dúvidas ou suporte adicional, entre em contato:</p>
+    <p><strong>E-mail:</strong> <a href="mailto:kaugustocesa280@gmail.com">kaugustocesa280@gmail.com</a></p>
+
+    <footer>
+      <p class="muted">Vida Fit Premium 2.0 — Endereço: Rua Exemplo, 123 — Cidade, Estado — Brasil</p>
+    </footer>
+  </main>
+</body>
+</html>
