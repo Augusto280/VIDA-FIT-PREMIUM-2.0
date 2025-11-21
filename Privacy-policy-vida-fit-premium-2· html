@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Política de Privacidade — Vida Fit Premium 2.0</title>
+  <meta name="description" content="Política de Privacidade do Vida Fit Premium 2.0." />
+  <style>
+    body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Arial;line-height:1.6;color:#0b1720;padding:28px;max-width:900px;margin:0 auto;background:#f7fbff}
+    h1,h2{color:#08203a}
+    p{margin:8px 0}
+    .muted{color:#475569;font-size:14px}
+    a{color:#0b6df6}
+    header{border-bottom:1px solid rgba(11,32,58,0.06);padding-bottom:10px;margin-bottom:18px}
+    footer{margin-top:30px;border-top:1px solid rgba(11,32,58,0.06);padding-top:12px;color:#64748b;font-size:13px}
+    ul{margin-left:18px}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Política de Privacidade — Vida Fit Premium 2.0</h1>
+    <p class="muted">Data de Vigência: 21 de novembro de 2025</p>
+  </header>
+
+  <main>
+    <p>Esta Política de Privacidade explica como <strong>Vida Fit Premium 2.0</strong> (“nosso app”, “nosso serviço”, “Vida Fit”) coleta, usa, compartilha e protege os dados pessoais dos usuários. Ao utilizar o app ou os serviços relacionados, você concorda com as práticas descritas nesta política.</p>
+
+    <h2>1. Dados que coletamos</h2>
+    <p>Podemos coletar os seguintes tipos de informações:</p>
+    <ul>
+      <li><strong>Informações de conta:</strong> e‑mail, nome, senha (quando aplicável).</li>
+      <li><strong>Dados de assinatura:</strong> status de assinatura, plano contratado e timestamps (para validação de acesso).</li>
+      <li><strong>Dados de uso:</strong> informações anônimas de uso do app, telas acessadas, preferências e métricas de desempenho.</li>
+      <li><strong>Dados fornecidos voluntariamente:</strong> informações enviadas no formulário de contato.</li>
+    </ul>
+
+    <h2>2. Como usamos os seus dados</h2>
+    <p>Utilizamos os dados para os seguintes fins:</p>
+    <ul>
+      <li>Autenticar e identificar usuários.</li>
+      <li>Verificar o status de assinaturas e liberar recursos premium.</li>
+      <li>Processar pagamentos e comunicar sobre compras.</li>
+      <li>Melhorar o app, corrigir erros e analisar o comportamento de uso.</li>
+      <li>Responder a solicitações de suporte via e‑mail.</li>
+    </ul>
+
+    <h2>3. Compartilhamento de dados</h2>
+    <p>Não vendemos seus dados. Podemos compartilhar informações com:</p>
+    <ul>
+      <li><strong>Prestadores de serviço:</strong> plataformas de pagamento (ex.: Stripe) para processar cobranças; provedores de hospedagem (ex.: GitHub Pages) e serviços de analytics.</li>
+      <li><strong>Autoridades:</strong> quando exigido por lei ou para proteger nossos direitos.</li>
+    </ul>
+
+    <h2>4. Armazenamento e segurança</h2>
+    <p>Adotamos medidas técnicas e organizacionais para proteger seus dados contra acesso não autorizado, alteração ou destruição. Informações sensíveis, como chaves secretas, não são armazenadas no app público. No entanto, nenhum sistema é 100% seguro — em caso de incidente, informaremos os usuários conforme exigido por lei.</p>
+
+    <h2>5. Retenção de dados</h2>
+    <p>Reteremos seus dados pelo tempo necessário para cumprir as finalidades descritas (ex.: validação de assinaturas) e para atender a obrigações legais. Dados de pagamento são armazenados pelo provedor de pagamentos (Stripe) conforme sua própria política.</p>
+
+    <h2>6. Cookies e tecnologias semelhantes</h2>
+    <p>Se o site associado ao app utilizar cookies ou ferramentas de analytics, essas tecnologias são usadas para melhorar a experiência do usuário e coletar dados anônimos de uso. Você pode controlar cookies pelo navegador.</p>
+
+    <h2>7. Direitos do titular de dados</h2>
+    <p>Você tem direito de solicitar acesso, correção, exclusão ou limitação do tratamento dos seus dados, além de portabilidade quando aplicável. Para exercer esses direitos, entre em contato pelo e‑mail abaixo.</p>
+
+    <h2>8. Transferência internacional de dados</h2>
+    <p>Alguns serviços terceirizados (por ex.: Stripe, provedores de hospedagem) podem processar dados em servidores fora do Brasil. Tais transferências são realizadas conforme leis aplicáveis e com medidas de segurança adequadas.</p>
+
+    <h2>9. Menores de idade</h2>
+    <p>O app não é destinado a menores de 16 anos. Se você acredita que fornecemos dados de menores, entre em contato para que possamos remover as informações.</p>
+
+    <h2>10. Alterações nesta política</h2>
+    <p>Podemos atualizar esta política. Em caso de mudanças significativas, informaremos por e‑mail ou por aviso no app/site. A data de vigência no topo será atualizada.</p>
+
+    <h2>11. Contato</h2>
+    <p>Se tiver dúvidas ou quiser exercer seus direitos, entre em contato conosco:</p>
+    <p><strong>E‑mail:</strong> <a href="mailto:kaugustocesa280@gmail.com">kaugustocesa280@gmail.com</a></p>
+
+    <footer>
+      <p class="muted">Vida Fit Premium 2.0 — Endereço: Rua Exemplo, 123 — Cidade, Estado — Brasil</p>
+    </footer>
+  </main>
+</body>
+</html>
