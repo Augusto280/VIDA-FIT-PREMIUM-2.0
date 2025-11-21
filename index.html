@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vida Fit Premium 2.0 — App de Saúde</title>
+  <meta name="description" content="App de saúde inteligente com IA, oferecendo planos alimentares personalizados, análises profundas, recomendações diárias e acompanhamento completo do seu bem-estar." />
+  <meta name="theme-color" content="#0f172a" />
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
+  <style>
+    :root{--bg:#07142a;--card:#0f1f36;--accent:#f8b84c;--muted:#9fb0c6;--glass: rgba(255,255,255,0.03)}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;color:#e6eef6;background:linear-gradient(180deg,var(--bg),#041024);-webkit-font-smoothing:antialiased}
+    .container{max-width:1100px;margin:0 auto;padding:36px}
+    header{display:flex;align-items:center;justify-content:space-between;padding:12px 0}
+    .brand{display:flex;gap:12px;align-items:center}
+    .logo{width:56px;height:56px;border-radius:12px;background:linear-gradient(135deg,#2b6df6,#7b2be6);display:flex;align-items:center;justify-content:center;font-weight:700;color:white}
+    nav a{color:var(--muted);text-decoration:none;margin-left:18px}
+    .hero{display:grid;grid-template-columns:1fr 420px;gap:28px;align-items:center;margin-top:28px}
+    .hero h1{font-size:36px;margin:0;color:#fff}
+    .sub{color:var(--muted);margin-top:12px;line-height:1.5}
+    .cta{margin-top:20px;display:flex;gap:12px}
+    .btn{background:linear-gradient(90deg,#2b6df6,#7b2be6);color:white;padding:12px 18px;border-radius:10px;border:0;cursor:pointer}
+    .btn.ghost{background:transparent;border:1px solid rgba(255,255,255,0.06);color:var(--muted)}
+    .card{background:var(--card);padding:20px;border-radius:14px;box-shadow:0 6px 30px rgba(3,10,25,0.6)}
+    .features{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:24px}
+    .feature{background:var(--glass);padding:14px;border-radius:10px}
+    .screenshot{width:100%;border-radius:12px;overflow:hidden}
+
+    section{margin-top:48px}
+    h2{color:#fff;margin:0 0 12px 0}
+    .plans{display:flex;gap:18px}
+    .plan{flex:1;padding:18px;border-radius:12px;background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border:1px solid rgba(255,255,255,0.03)}
+    .plan-title{font-weight:700}
+    footer{padding:40px 0;color:var(--muted);text-align:center}
+    .grid-two{display:grid;grid-template-columns:1fr 360px;gap:20px}
+    .faq dt{font-weight:700;margin-top:12px}
+    .contact input, .contact textarea{width:100%;padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:rgba(255,255,255,0.02);color:#fff}
+    .small{font-size:13px;color:var(--muted)}
+    .top-badge{display:inline-block;padding:6px 10px;border-radius:999px;background:rgba(248,184,76,0.12);color:var(--accent);font-weight:600}
+    @media(max-width:900px){.hero{grid-template-columns:1fr;}.grid-two{grid-template-columns:1fr}.plans{flex-direction:column}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">VF</div>
+        <div>
+          <div style="font-weight:700">Vida Fit Premium 2.0</div>
+          <div class="small">App com IA — Planos alimentares e análises personalizadas</div>
+        </div>
+      </div>
+      <nav>
+        <a href="#features">Recursos</a>
+        <a href="#plans">Planos</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contato</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div>
+          <span class="top-badge">Lançamento</span>
+          <h1>Transforme sua saúde com inteligência artificial</h1>
+          <p class="sub">App de saúde inteligente com IA, oferecendo planos alimentares personalizados, análises profundas, recomendações diárias e acompanhamento completo do seu bem-estar.</p>
+          <div class="cta">
+            <a class="btn" href="#plans">Ver Planos</a>
+            <a class="btn ghost" href="#contact">Contato / Suporte</a>
+          </div>
+
+          <div class="card" style="margin-top:22px">
+            <strong>Como funciona</strong>
+            <ol style="color:var(--muted);margin:8px 0 0 16px;">
+              <li>Cadastre-se com seu e‑mail</li>
+              <li>Escolha um plano e pague pelo app</li>
+              <li>O sistema libera o acesso automaticamente</li>
+            </ol>
+            <div class="small" style="margin-top:10px">Política de reembolso e termos disponíveis no rodapé.</div>
+          </div>
+
+          <div class="features">
+            <div class="feature">✔️ Planos alimentares personalizados</div>
+            <div class="feature">✔️ Análises completas com IA</div>
+            <div class="feature">✔️ Recomendações diárias</div>
+            <div class="feature">✔️ Suporte prioritário</div>
+          </div>
+        </div>
+
+        <aside>
+          <div class="card">
+            <img class="screenshot" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='380' height='720'><rect width='100%' height='100%' fill='%230d2140'/><text x='50%' y='50%' fill='%23fff' font-size='18' font-family='Arial' text-anchor='middle'>Mockup do app\nColoque aqui sua imagem</text></svg>" alt="screenshot">
+            <div style="margin-top:12px" class="small">Aceitamos pagamentos por cartão com Stripe. Entre em contato para configurar integração.</div>
+          </div>
+        </aside>
+      </section>
+
+      <section id="features">
+        <h2>Recursos</h2>
+        <div class="grid-two">
+          <div>
+            <p class="small">Vida Fit Premium combina IA, ciência da nutrição e usabilidade para entregar resultados reais:</p>
+            <ul style="color:var(--muted);margin-top:12px;">
+              <li>Planos alimentares baseados em preferências e metas.</li>
+              <li>Análises de progresso e recomendações semanais.</li>
+              <li>Histórico e relatórios exportáveis.</li>
+              <li>Login por e‑mail e sistema de assinatura automatizado.</li>
+            </ul>
+          </div>
+          <div>
+            <div class="card">
+              <strong>Integração com Stripe</strong>
+              <p class="small">Para receber pagamentos usaremos Stripe — é seguro e compatível com lojas e apps. Configure sua conta e envie seus documentos para verificação.</p>
+              <div style="margin-top:10px">
+                <a class="btn" href="#contact">Solicitar integração</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="plans">
+        <h2>Planos</h2>
+        <div class="plans">
+          <div class="plan">
+            <div class="plan-title">Mensal</div>
+            <div style="margin-top:8px">R$ 49,90 / mês</div>
+            <ul class="small" style="margin-top:12px;color:var(--muted)">
+              <li>Todos recursos essenciais</li>
+              <li>Atualizações semanais</li>
+              <li>Suporte por e‑mail</li>
+            </ul>
+            <div style="margin-top:14px"><button class="btn">Assinar</button></div>
+          </div>
+
+          <div class="plan">
+            <div class="plan-title">Anual</div>
+            <div style="margin-top:8px">R$ 399,00 / ano (economize)</div>
+            <ul class="small" style="margin-top:12px;color:var(--muted)">
+              <li>Pagamento único anual</li>
+              <li>Suporte prioritário</li>
+              <li>Conteúdo exclusivo</li>
+            </ul>
+            <div style="margin-top:14px"><button class="btn">Assinar</button></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="faq">
+        <h2>FAQ</h2>
+        <dl class="faq" style="color:var(--muted)">
+          <dt>Como funciona a liberação do premium?</dt>
+          <dd>O pagamento é processado via Stripe. Após confirmação a conta é atualizada automaticamente no banco de dados do app.</dd>
+
+          <dt>Posso cancelar e pedir reembolso?</dt>
+          <dd>Sim — políticas de reembolso estão descritas nos Termos e na Política de Privacidade (links no rodapé).</dd>
+
+          <dt>O app funciona offline?</dt>
+          <dd>Algumas funcionalidades precisam de internet (sincronização, geração de relatórios e verificação de assinatura).</dd>
+        </dl>
+      </section>
+
+      <section id="contact">
+        <h2>Contato & Integração Stripe</h2>
+        <div class="grid-two">
+          <div>
+            <p class="small">Para conectar sua conta Stripe e aceitar pagamentos via cartão precisamos dos dados abaixo — envie por mensagem segura ou email para <strong>contato@vidafit.app</strong>.</p>
+            <ul class="small" style="color:var(--muted)">
+              <li>Nome do responsável</li>
+              <li>CPF ou CNPJ</li>
+              <li>Documento de identidade (frente e verso)</li>
+              <li>Endereço comercial completo</li>
+              <li>Conta bancária para repasses (se necessário)</li>
+            </ul>
+            <p class="small">Após o envio, ajudamos você a completar a verificação da Stripe (business profile, website e documentação) e a integrar o checkout.</p>
+          </div>
+
+          <aside class="card contact">
+            <form id="contactForm" onsubmit="event.preventDefault();alert('Obrigado! Recebemos sua solicitação.');">
+              <label class="small">Seu nome</label>
+              <input type="text" placeholder="Nome completo" required />
+              <label class="small" style="margin-top:8px">E‑mail</label>
+              <input type="email" placeholder="seu@exemplo.com" required />
+              <label class="small" style="margin-top:8px">Mensagem</label>
+              <textarea rows="4" placeholder="Ex: preciso integrar Stripe e publicar no Google Play/App Store"></textarea>
+              <div style="margin-top:12px"><button class="btn" type="submit">Enviar solicitação</button></div>
+            </form>
+          </aside>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      <div class="small">© <strong>Vida Fit Premium 2.0</strong> — Todos os direitos reservados. <a href="/terms.html" style="color:var(--muted)">Termos</a> • <a href="/privacy.html" style="color:var(--muted)">Política de Privacidade</a></div>
+      <div style="margin-top:8px" class="small">Endereço comercial: Rua Exemplo, 123 — Cidade, Estado — Brasil</div>
+    </footer>
+  </div>
+
+  <!-- SCRIPTS: deploy helpers e instruções -->
+  <script>
+    // This file is static. Replace contact email and business address with real values before publishing.
+    // Quick helper to open email when clicking support buttons (if any):
+    document.querySelectorAll('.btn').forEach(btn=>{
+      if(btn.textContent.trim()==='Assinar'){
+        btn.addEventListener('click',()=>{window.location.href='mailto:contato@vidafit.app?subject=Assinatura%20Vida%20Fit%20Premium%202.0'});
+      }
+    });
+  </script>
+</body>
+</html>
