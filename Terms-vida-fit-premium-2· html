@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Termos de Uso — Vida Fit Premium 2.0</title>
+  <meta name="description" content="Termos de Uso do Vida Fit Premium 2.0." />
+  <style>
+    body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Arial;line-height:1.65;color:#0b1720;padding:28px;max-width:900px;margin:0 auto;background:#f7fbff}
+    h1,h2{color:#08203a}
+    p{margin:8px 0}
+    .muted{color:#475569;font-size:14px}
+    a{color:#0b6df6}
+    header{border-bottom:1px solid rgba(11,32,58,0.06);padding-bottom:12px;margin-bottom:20px}
+    footer{margin-top:30px;border-top:1px solid rgba(11,32,58,0.06);padding-top:12px;color:#64748b;font-size:13px}
+    ul{margin-left:20px}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Termos de Uso — Vida Fit Premium 2.0</h1>
+    <p class="muted">Última atualização: 21 de novembro de 2025</p>
+  </header>
+
+  <main>
+    <p>Bem-vindo ao <strong>Vida Fit Premium 2.0</strong> (“nós”, “nosso app”, “serviço”). Estes Termos de Uso regulam a utilização do aplicativo e de todos os serviços oferecidos. Ao usar o app, você concorda integralmente com estes termos. Caso não concorde, recomendamos que não utilize o serviço.</p>
+
+    <h2>1. Descrição do serviço</h2>
+    <p>O Vida Fit Premium 2.0 é um aplicativo de saúde e bem-estar com Inteligência Artificial, oferecendo:</p>
+    <ul>
+      <li>planos alimentares personalizados;</li>
+      <li>análises profundas de hábitos e metas;</li>
+      <li>recomendações inteligentes diárias;</li>
+      <li>acesso a recursos exclusivos mediante assinatura;</li>
+      <li>histórico e acompanhamento de progresso.</li>
+    </ul>
+
+    <h2>2. Elegibilidade</h2>
+    <p>Para utilizar o app, o usuário deve ter pelo menos 16 anos. Ao usar o serviço, você declara ser maior de idade conforme exigido.</p>
+
+    <h2>3. Conta do usuário</h2>
+    <p>Para usar determinadas funções, é necessário criar uma conta com e‑mail válido. Você é responsável por manter a segurança da sua conta e por todas as atividades realizadas por meio dela.</p>
+
+    <h2>4. Assinaturas e pagamentos</h2>
+    <p>O acesso aos recursos premium é feito por meio de assinatura recorrente processada por provedor externo (ex.: Stripe).</p>
+    <ul>
+      <li>O valor da assinatura mensal atual é <strong>R$ 49,90</strong>.</li>
+      <li>A cobrança é recorrente até que o usuário cancele.</li>
+      <li>O cancelamento pode ser solicitado a qualquer momento.</li>
+      <li>A Política de Reembolso está disponível em página separada.</li>
+    </ul>
+
+    <h2>5. Uso permitido</h2>
+    <p>Você se compromete a usar o app apenas para fins lícitos e pessoais, respeitando as leis aplicáveis. É proibido:</p>
+    <ul>
+      <li>realizar engenharia reversa ou tentar acessar o código-fonte;</li>
+      <li>usar a plataforma para fins comerciais não autorizados;</li>
+      <li>tentar violar sistemas de segurança ou burlar verificações de assinatura.</li>
+    </ul>
+
+    <h2>6. Modificações no serviço</h2>
+    <p>Podemos alterar, atualizar ou descontinuar partes do app a qualquer momento, com ou sem aviso prévio, visando melhorias ou evolução do serviço.</p>
+
+    <h2>7. Limitação de responsabilidade</h2>
+    <p>O app fornece recomendações baseadas em IA e informações de caráter geral. Não substitui orientação médica, nutricional ou profissional especializada. O uso do app é de responsabilidade do usuário.</p>
+
+    <h2>8. Privacidade</h2>
+    <p>O uso do serviço está sujeito à nossa <a href="privacy.html">Política de Privacidade</a>, que explica como coletamos e tratamos seus dados.</p>
+
+    <h2>9. Cancelamento e encerramento</h2>
+    <p>Podemos suspender ou encerrar o acesso caso o usuário viole estes termos. O usuário pode cancelar a assinatura ou excluir sua conta a qualquer momento.</p>
+
+    <h2>10. Propriedade intelectual</h2>
+    <p>Todo o conteúdo, design, textos, gráficos, logotipos, algoritmos e funcionalidades pertencem ao Vida Fit Premium 2.0 e são protegidos por leis de direitos autorais.</p>
+
+    <h2>11. Alterações dos termos</h2>
+    <p>Podemos atualizar estes termos periodicamente. Recomendamos revisar esta página regularmente. O uso continuado do serviço após alterações implica aceitação dos novos termos.</p>
+
+    <h2>12. Contato</h2>
+    <p>Para dúvidas ou solicitações, entre em contato:</p>
+    <p><strong>E‑mail:</strong> <a href="mailto:kaugustocesa280@gmail.com">kaugustocesa280@gmail.com</a></p>
+
+    <footer>
+      <p class="muted">Vida Fit Premium 2.0 — Endereço: Rua Exemplo, 123 — Cidade, Estado — Brasil</p>
+    </footer>
+  </main>
+</body>
+</html>
