@@ -1,169 +1,132 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>VIDA FIT PREMIUM 2.0</title>
 
-    <!-- PWA -->
-    <link rel="manifest" href="manifest.json">
-    <meta name="theme-color" content="#1A73E8">
-    <script>
-      if ("serviceWorker" in navigator) {
-        window.addEventListener("load", () => {
-          navigator.serviceWorker.register("service-worker.js");
-        });
-      }
-    </script>
+    <!-- SEO -->
+    <meta name="description" content="Transforme seu corpo com o VIDA FIT PREMIUM – treinos, nutrição e acompanhamento direto pelo app.">
 
-    <!-- Estilos -->
+    <!-- Ícone -->
+    <link rel="icon" href="icon-512x512.png" />
+
+    <!-- Manifest -->
+    <link rel="manifest" href="manifest.json" />
+
+    <!-- Estilo -->
     <style>
         body {
             margin: 0;
-            font-family: Arial, sans-serif;
-            background: #ffffff;
-            color: #222;
+            padding: 0;
+            background: linear-gradient(135deg, #0d1b2a, #1a365d, #1a73e8);
+            background-size: 300% 300%;
+            animation: bg 12s ease infinite;
+            font-family: "Poppins", Arial, sans-serif;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
         }
 
-        header {
-            background: #1A73E8;
-            padding: 20px;
+        @keyframes bg {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .container {
+            width: 90%;
+            max-width: 420px;
+            padding: 35px;
+            background: rgba(255,255,255,0.08);
+            backdrop-filter: blur(14px);
+            border-radius: 22px;
             text-align: center;
-            color: white;
-            font-size: 24px;
-            font-weight: bold;
+            box-shadow: 0 12px 40px rgba(0,0,0,0.3);
         }
 
-        .hero {
-            text-align: center;
-            padding: 60px 20px;
-            background: linear-gradient(135deg, #1A73E8, #D4AF37);
-            color: white;
+        .logo {
+            width: 140px;
+            height: 140px;
+            border-radius: 22px;
+            margin-bottom: 20px;
+            box-shadow: 0 6px 25px rgba(0,0,0,0.4);
         }
 
-        .hero h1 {
-            font-size: 38px;
-            margin-bottom: 10px;
+        h1 {
+            margin: 0;
+            font-size: 1.9rem;
+            font-weight: 700;
         }
 
-        .hero p {
-            font-size: 20px;
-            margin-bottom: 30px;
+        p {
+            opacity: 0.85;
+            margin: 8px 0 25px 0;
+            font-size: 1.05rem;
         }
 
         .btn {
-            display: inline-block;
-            padding: 15px 25px;
-            margin: 10px;
+            display: block;
+            padding: 14px;
+            margin: 12px 0;
             border-radius: 12px;
-            font-size: 18px;
-            font-weight: bold;
-            cursor: pointer;
+            font-size: 1.05rem;
+            font-weight: 600;
             text-decoration: none;
-            color: white;
-            transition: 0.2s;
+            color: #fff;
+            transition: 0.3s;
         }
 
-        .btn-gold {
-            background: linear-gradient(45deg, #D4AF37, #b89226);
+        .btn-install {
+            background: #1a73e8;
+            box-shadow: 0 4px 18px rgba(26,115,232,0.4);
         }
 
-        .btn-blue {
-            background: linear-gradient(45deg, #1A73E8, #135db8);
+        .btn-install:hover {
+            background: #1665cb;
         }
 
-        .btn:hover {
-            transform: scale(1.05);
+        .btn-open {
+            background: #10b981;
+            box-shadow: 0 4px 18px rgba(16,185,129,0.4);
         }
 
-        .section {
-            padding: 40px 20px;
-            text-align: center;
-        }
-
-        .section h2 {
-            color: #1A73E8;
-            margin-bottom: 20px;
-            font-size: 28px;
-        }
-
-        .features {
-            max-width: 800px;
-            margin: 0 auto;
-            text-align: left;
-            font-size: 20px;
-            line-height: 1.6;
+        .btn-open:hover {
+            background: #0a8d66;
         }
 
         footer {
-            background: #1A73E8;
-            padding: 20px;
-            text-align: center;
-            color: white;
-            margin-top: 40px;
+            margin-top: 20px;
+            opacity: 0.7;
+            font-size: 0.8rem;
         }
     </style>
 </head>
 
 <body>
+    <div class="container">
+        <img src="icon-512x512.png" class="logo" alt="App Icon">
 
-<header>
-    VIDA FIT PREMIUM 2.0
-</header>
+        <h1>VIDA FIT PREMIUM</h1>
+        <p>A sua evolução começa agora. Treinos, foco, nutrição e resultados reais.</p>
 
-<section class="hero">
-    <h1>A Revolução do Emagrecimento Inteligente</h1>
-    <p>Scanner por foto, receitas diárias, trilhas mentais e protocolo de 60 dias.</p>
+        <!-- Botão Instalar App (Google Drive Download Direto) -->
+        <a class="btn btn-install"
+           href="https://drive.google.com/uc?export=download&id=1JM7PLjyv0Pk5VNUi7296AIRCfMWqN9ZV">
+           📲 Instalar Aplicativo
+        </a>
 
-    <a href="#" id="instalarApp" class="btn btn-blue">📲 Instalar App</a>
+        <!-- Botão Abrir App TWA -->
+        <a class="btn btn-open"
+           href="android-app://io.github.augusto280.twa">
+           🚀 Abrir Aplicativo
+        </a>
 
-    <a href="https://buy.stripe.com/cNiaEXckF0mIegQ1JT1Jm03"
-       target="_blank"
-       class="btn btn-gold">💛 Comprar Premium</a>
-
-    <a href="https://drive.google.com/file/d/1JM7PLjyv0Pk5VNUi7296AIRCfMWqN9ZV/view?usp=sharing"
-       target="_blank"
-       class="btn btn-blue">🔥 Abrir o Aplicativo</a>
-</section>
-
-<section class="section">
-    <h2>Recursos Exclusivos</h2>
-
-    <div class="features">
-        ✔ Scanner inteligente por foto<br>
-        ✔ 4 receitas novas todos os dias<br>
-        ✔ Protocolo ativado de 60 dias<br>
-        ✔ Trilhas mentais binaurais<br>
-        ✔ Assistente IA Vida Fit X<br>
-        ✔ Perfil avançado com evolução<br>
-        ✔ Missões e gamificação<br>
-        ✔ Área Premium exclusiva<br>
+        <footer>© 2025 VIDA FIT PREMIUM • Todos os direitos reservados</footer>
     </div>
-</section>
-
-<footer>
-    © 2025 VIDA FIT PREMIUM 2.0 — Todos os direitos reservados.
-</footer>
-
-<!-- SCRIPT DE INSTALAÇÃO PWA -->
-<script>
-  let deferredPrompt;
-
-  window.addEventListener('beforeinstallprompt', (e) => {
-    e.preventDefault();
-    deferredPrompt = e;
-  });
-
-  document.getElementById("instalarApp").addEventListener("click", async () => {
-    if (deferredPrompt) {
-      deferredPrompt.prompt();
-      const { outcome } = await deferredPrompt.userChoice;
-      deferredPrompt = null;
-    } else {
-      window.location.href = "https://drive.google.com/file/d/1JM7PLjyv0Pk5VNUi7296AIRCfMWqN9ZV/view?usp=sharing";
-    }
-  });
-</script>
-
 </body>
 </html>
+
